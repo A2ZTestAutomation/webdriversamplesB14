@@ -21,6 +21,7 @@ public class AlertTest {
 		driver.findElement(By.xpath("//button[@class='btn btn-default btn-lg'][1]")).click();
 		Alert confirm = driver.switchTo().alert();
 		System.out.println("confirm Message : "+confirm.getText());
+		System.out.println("Modified by Tester2 ");
 		confirm.dismiss();
 		
 		//Prompt Alert
