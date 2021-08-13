@@ -23,6 +23,7 @@ public class AlertTest {
 		System.out.println("confirm Message : "+confirm.getText());
 		System.out.println("Modified by Tester2 ");
 		System.out.println("Modified By tester1 for F1");
+		System.out.println("Modified by tester2 - F1");
 		confirm.dismiss();
 		
 		//Prompt Alert
